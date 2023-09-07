@@ -1,0 +1,3 @@
+ErrorDocument 404 http://localhost/OWWASPOM/404.php
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /pages/errors/404.php [L]
